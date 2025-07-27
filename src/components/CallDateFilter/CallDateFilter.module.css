@@ -1,0 +1,57 @@
+.dateFilter {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex: 1;
+}
+
+.arrowIcon {
+  color: var(--icon);
+  cursor: pointer;
+}
+
+.arrowIcon:hover {
+  color: var(--accent);
+}
+
+.dateFilter .filterButton {
+  width: 100px;
+  padding: 0;
+  color: var(--accent);
+}
+
+div .menuItem__active {
+  color: var(--accent);
+}
+
+.calendarIcon {
+  color: var(--icon);
+}
+
+.filterButton:hover .calendarIcon {
+  color: var(--accent);
+}
+
+.datepickerButton {
+  margin-left: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.datepicker {
+  position: absolute;
+  padding: 16px;
+  top: -1px;
+  right: 206px;
+  background: var(--calls-bg);
+  box-shadow: 0 0 26px 0 #E9EDF3CC;
+  border: 1px solid #E9EDF3CC;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.datepickerButton:hover .calendarIcon{
+  color: var(--accent);
+}

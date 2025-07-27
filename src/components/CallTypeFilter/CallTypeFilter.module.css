@@ -1,0 +1,15 @@
+.typeFilter {
+  flex: 1;
+}
+
+.typeFilter .value__active {
+  color: var(--active-value);
+}
+
+div .menuItem__active {
+  color: var(--active-menu-item);
+}
+
+.icon__reversed {
+  transform: rotate(180deg);
+}

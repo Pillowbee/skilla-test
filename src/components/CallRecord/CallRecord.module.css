@@ -1,0 +1,41 @@
+.record {
+  width: 350px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  padding: 12px 18px;
+  gap: 12px;
+  box-sizing: border-box;
+  background: var(--border-color);
+  border-radius: 48px;
+}
+
+.playIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 7px;
+  box-sizing: border-box;
+  background: var(--calls-bg);
+  border-radius: 50%;
+}
+
+.progress {
+  width: 164px;
+  height: 4px;
+  background: var(--icon);
+  border-radius: 50px;
+}
+
+.download,
+.delete {
+  color: var(--icon);
+}
+
+.download:hover,
+.delete:hover {
+  color: var(--accent);
+}

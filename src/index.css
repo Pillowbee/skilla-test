@@ -1,0 +1,27 @@
+@import url("https://unpkg.com/reset-css/reset.css");
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import "react-day-picker/style.css";
+
+:root {
+  --bg: #F1F4F9;
+  --calls-bg: #fff;
+  --icon: #ADBFDF;
+  --text-primary: #122945;
+  --text-secondary: #5E7793;
+  --text-error: #EA1A4F;
+  --border-color: #EAF0FA;
+  --active-value: #1F46FB;
+  --active-menu-item: #015EF5;
+  --accent: #002CFB;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: var(--bg);
+  font-family: 'SF Pro Display', sans-serif;
+}

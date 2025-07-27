@@ -1,0 +1,4 @@
+.scriptNotUsed {
+  color: var(--text-error);
+  font-size: 14px;
+}
