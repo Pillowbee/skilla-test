@@ -9,57 +9,20 @@
   background: var(--calls-bg);
   border-radius: 8px;
   box-sizing: border-box;
-  box-shadow: 0 4px 5px 0 #E9EDF3;
+  box-shadow: 0 4px 5px 0 #e9edf3;
 }
 
-.calls .header,
-.calls .cell {
+.calls .header {
   border-bottom: 1px solid var(--border-color);
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: "SF Pro Display", sans-serif;
   font-weight: 400;
 }
 
 .calls .header {
-  padding: 24px 0 20px;
+  padding: 12px 0 12px;
   color: var(--text-secondary);
   opacity: 0.87;
   font-size: 14px;
-}
-
-.calls .cell {
-  padding: 16px 0 16px;
-  color: var(--text-primary);
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.calls .cell_secondary {
-  color: var(--text-secondary);
-}
-
-.calls .avatar {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-}
-
-.row .duration {
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  height: 48px;
-}
-
-.row .controls {
-  display: none;
-}
-
-.row:hover .duration {
-  display: none;
-}
-
-.row:hover .controls {
-  display: flex;
 }
 
 .loader {

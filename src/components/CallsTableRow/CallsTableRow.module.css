@@ -1,0 +1,38 @@
+.row .cell {
+  border-bottom: 1px solid var(--border-color);
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  padding: 8px 4px;
+  color: var(--text-primary);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.row .cell_secondary {
+  color: var(--text-secondary);
+}
+
+.row .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.row .duration {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 48px;
+}
+
+.row .controls {
+  display: none;
+}
+
+.row:hover .duration {
+  display: none;
+}
+
+.row:hover .controls {
+  display: flex;
+}
