@@ -51,8 +51,6 @@ export default function CallsTable() {
     },
   });
 
-  console.log(data);
-
   const handleSort = (orderBy: "date" | "duration") => {
     setOrderBy((prev) => {
       if (prev === orderBy) {
